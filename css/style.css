@@ -436,9 +436,17 @@ html, .thumb .mask strong { background-image: url(data:image/png;base64,iVBORw0K
 .shadow, .thumb:after, .rs-thumb-wrap > a:after, .button, button, input[type=submit], input[type=reset], input[type=button], blockquote, code, samp, pre { box-shadow: inset 0 -5px 0 rgba(0,0,0,0.15); -moz-box-shadow: inset 0 -5px 0 rgba(0,0,0,0.15); -webkit-box-shadow: inset 0 -5px 0 rgba(0,0,0,0.15); }
 .shadow-bottom, #menu.mobile, table, #sidebar div > ul { border-bottom: 5px solid rgba(0,0,0,0.15); }
 
-/* big mobile version */
-@media screen and (min-width: 480px) {
+
+
+/* Personalizado */
+.redesSocialesMovil{margin-bottom: 10px;}
+.redesSocialesMovil .llamanos{background-color: #428aa1;}
+.redesSocialesMovil .llamanos a{color: white}
 .redesSocialesPc{display: none;}
+
+@media screen and (min-width: 480px) {
+
+
 
 
 }
@@ -515,12 +523,14 @@ html, .thumb .mask strong { background-image: url(data:image/png;base64,iVBORw0K
 	#content h2 span.date { float: right; margin-top: 0; position: relative; top: -0.1em; }
 
 	#footer .omega { text-align: right; }
+	
 	/* personalizado */
-	.redesSocialesPc{display: inline;}
 	.redesSocialesMovil {display: none;}
-	.redesSocialesPc {font-size:34px;text-align: left;}
-	.redesSocialesPc ul{margin-bottom: 0;}
-	.redesSocialesPc ul li{display:inline-block;margin: 0;padding: 0 8px 0 8px}
+	.redesSocialesPc {display: inline-block;font-size:30px;text-align: left;}
+	.redesSocialesPc ul{margin:0 0 0 4px;}
+	.redesSocialesPc ul li{display:inline;vertical-align: top;margin: 0;padding: 4px 0 5px 0}
+	.llamanos{background-color: #428aa1;color: white;font-size: 17px}
+	#heading2{float: right;}
 
 }
 
@@ -551,6 +561,9 @@ html, .thumb .mask strong { background-image: url(data:image/png;base64,iVBORw0K
 	.call-to-action { padding: 20px; }
 	.call-to-action .text { padding-right: 105px; }
 	.call-to-action .button { right: 16px; width: 95px; margin-top: -2.3em; line-height: 2.5em; }
+	.redesSocialesPc ul{margin:0 0 0 4px;}
+	.redesSocialesPc ul li{padding: 0 4px 0 4spx;}
+	.llamanos{font-size: 22px}
 	
 	
 }
@@ -578,6 +591,11 @@ html, .thumb .mask strong { background-image: url(data:image/png;base64,iVBORw0K
 
 	.call-to-action .text { padding-right: 185px; }
 	.call-to-action .button { width: 165px; margin-top: -2.3em; line-height: 2.5em; }
+	
+	/* PERSONALIZACION */
+	.redesSocialesPc{font-size: 40px}
+	.redesSocialesPc ul li{margin: 0;padding: 0 10px 0 10px}
+	.llamanos{font-size: 28px}
 }
 
 /* retina display */
