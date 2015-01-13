@@ -1,3 +1,4 @@
+@import url("fonts.css");
 /* OneStudio Template */
 
 /* reset */
@@ -5,6 +6,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 
 /* fonts */
+
 @font-face { font-family: "AllerLight"; src: url('../fonts/aller-light.eot'); src: url('../fonts/aller-light.eot?#iefix') format('embedded-opentype'), url('../fonts/aller-light.woff') format('woff'), url('../fonts/aller-light.ttf') format('truetype'), url('../fonts/aller-light.svg#OpenSansLight') format('svg'); font-weight: normal; font-style: normal; }
 
 /* basic */
@@ -414,6 +416,19 @@ body .container .col.omega { margin-right: 0; }
 #infscr-loading { position: absolute; left: 50%; margin-left: -135px; bottom: 10px; width: 250px; padding: 10px; background-color: #428aa1; color: #fff; text-align: center; text-transform: uppercase;  line-height: 1.4em; }
 #infscr-loading img { display: none; }
 
+/* personalizado */
+
+
+a{text-decoration: none;}
+.redesSocialesMovil {font-size:34px;text-align: center;}
+.redesSocialesMovil ul{margin-bottom: 0;}
+.redesSocialesMovil ul li{display:inline-block;margin: 0;padding: 0 20px 0 20px}
+
+
+
+}
+
+
 /* custom pattern */
 html, .thumb .mask strong { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAFUlEQVR42mJgYGDgZcACeFEYAAEGAALlACjTJLfEAAAAAElFTkSuQmCC); background-repeat: repeat; background-position: center center; }
 
@@ -423,6 +438,8 @@ html, .thumb .mask strong { background-image: url(data:image/png;base64,iVBORw0K
 
 /* big mobile version */
 @media screen and (min-width: 480px) {
+.redesSocialesPc{display: none;}
+
 
 }
 
@@ -498,6 +515,13 @@ html, .thumb .mask strong { background-image: url(data:image/png;base64,iVBORw0K
 	#content h2 span.date { float: right; margin-top: 0; position: relative; top: -0.1em; }
 
 	#footer .omega { text-align: right; }
+	/* personalizado */
+	.redesSocialesPc{display: inline;}
+	.redesSocialesMovil {display: none;}
+	.redesSocialesPc {font-size:34px;text-align: left;}
+	.redesSocialesPc ul{margin-bottom: 0;}
+	.redesSocialesPc ul li{display:inline-block;margin: 0;padding: 0 8px 0 8px}
+
 }
 
 /* desktop version */
@@ -527,6 +551,8 @@ html, .thumb .mask strong { background-image: url(data:image/png;base64,iVBORw0K
 	.call-to-action { padding: 20px; }
 	.call-to-action .text { padding-right: 105px; }
 	.call-to-action .button { right: 16px; width: 95px; margin-top: -2.3em; line-height: 2.5em; }
+	
+	
 }
 
 /* big desktop version */
